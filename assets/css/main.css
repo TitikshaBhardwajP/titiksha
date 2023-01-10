@@ -4992,7 +4992,7 @@ input, select, textarea {
 	}
 	.CCvideo{
 		box-sizing: border-box;
-    background: url("/images/laptop.png") center center no-repeat;
+    background: url("images/laptop.png") center center no-repeat;
     background-size: contain;
     padding: 6.5% 11% 9.8%;
     position: relative;
