@@ -1,0 +1,162 @@
+<!DOCTYPE HTML>
+
+<html>
+	<head>
+		<title>Other Projects</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+        <noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+		<script>
+            $(window).on("load resize scroll", function() {
+                $(".PSUbannerSpotlight").each(function() {
+                    var windowTop = $(window).scrollTop();
+                    var elementTop = $(this).offset().top;
+                    var leftPosition = windowTop - elementTop + 200;
+                    var rightPosition = elementTop - windowTop + 265;
+                    var newPosition = windowTop - elementTop + 265;
+                    var card4Position = windowTop - elementTop + 565;
+                    var cloud5Position = elementTop - windowTop + 565;
+                    // var fartherLeft = windowTop - elementTop;
+                    $(this)
+                        .find(".cloud")
+                        .css({ left: leftPosition });
+                    $(this)
+                        .find(".cloud2")
+                        .css({ right: rightPosition });
+                    
+                    $(this)
+                        .find(".cloud3")
+                        .css({ left: card4Position });
+                    $(this)
+                        .find(".cloud4")
+                        .css({ left: newPosition });
+                    $(this)
+                        .find(".cloud5")
+                        .css({ right: cloud5Position });
+                    // $(this)
+                    //     .find(".cloud3")
+                    //     .css({ right: newPosition });
+                });
+            });
+        </script>
+        
+	</head>
+	<body class="is-preload">
+		<div id="page-wrapper">
+
+			<!-- Header -->
+			<header id="header" class="top-header">
+				<h1 id="logo"><a href="index.html">T</a></h1>
+				<nav id="nav">
+					<ul>
+						<li><a href="index.html">Home</a></li>
+						<li>
+							<a href="projects.html">Projects</a>
+						</li>
+						
+					</ul>
+				</nav>
+			</header>
+
+			<!-- Main -->
+
+            <!-- One -->
+			<section id="one" class="PSUbannerSpotlight spotlight style1 bottom col-md-12 col-lg-12 col-sm-12" style="box-shadow: none;position: relative;">
+				<h1 class="CCpageHeading">Other Personal Projects</h1>
+				<div style="position: absolute;width: 9%;top: 35%;"></div>
+				<div class="cloud5" alt="" style="width: 15px; height:15px;background-color: #ffffff; border-radius: 100%; border:1px solid #ffffff; position: absolute;top:35%;"> </div>
+				<div class="cloud4" alt="" style="width: 10px; height:10px;background-color: #ffffff;  border-radius: 100%; border:1px solid #ffffff; position: absolute;top: 48%;"> </div>
+				<div class="cloud3" alt="" style="width: 20px; height:20px;background-color: #ffffff; border-radius: 100%; border:1px solid #ffffff; position: absolute;bottom: 18%;"> </div>
+				<div class="cloud2" alt="" style="width: 25px; height:25px;background-color: #ffffff; border-radius: 100%; border:1px solid #ffffff; position: absolute;bottom: 28%;"> </div>
+				<div class="cloud" alt="" style="width: 15px; height:15px;background-color: #ffffff; border-radius: 100%; border:1px solid #ffffff; position: absolute;top: 75%;"> </div>
+				<!-- <div style="position: relative;"> -->
+                    
+                <!-- <img class="mobApp" src="images/homeScreenApp.png" alt="" style="position: absolute;width: 12%;top: 25%; right: 10%;" /> -->
+            </section>
+				
+            <!-- Two -->
+			<section id="two" class="spotlight spotlightImage style2 right col-md-12 col-sm-12 col-lg-12" style="background-color: #ffffff;padding-top:5em !important;padding-bottom: 5em !important;position: relative;">
+				<div class="col-md-10 col-lg-10 col-sm-12 col-md-offset-1 col-lg-offset-1" style="margin-bottom: 35px;padding-bottom: 35px;border-bottom: 0.3px solid #999999;">
+					<h2 class="col-md-12" style="color:#555555; text-align: center; margin-bottom:35px;">Stone Painting</h2>
+					<div class="laptop-container col-lg-6 col-md-6" style="text-align: center;">
+						<img src="images/giraffe.png" style="width: 50%;padding: 5% 6% 5%;">
+						<!-- <video controls autoplay muted loop class="campusVideo">
+							<source src="images/giraffe.png" type="video/mp4">
+						</video> -->
+					</div>
+					<div class="laptop-container col-lg-6 col-md-6" style="text-align: center;">
+						<img src="images/penguin.png" style="width: 60%;padding: 5% 6% 5%;">
+					</div>
+					<!-- <div class="laptop-container col-lg-2 col-md-2">
+						<img src="images/CampusDashboard3.png" style="width: 100%;box-shadow: 1px 7px 14px #ccc;">
+					</div> -->
+					<div class=" CCcontent col-md-12 col-sm-12">
+						<div class="col-md-12 col-lg-12">
+							<header>
+								<!-- <h3>Odio faucibus ipsum integer consequat</h3> -->
+							</header>
+							<p>
+									Developed a responsive dashboard for a customer facing Campus website. 
+							</p>
+						</div>
+					</div>
+				</div>
+				
+				<div class="col-md-10 col-lg-10 col-sm-12 col-md-offset-1 col-lg-offset-1" style="margin-bottom: 35px;border-bottom: 0.3px solid #999999;">
+					<h2 class="col-md-12" style="color:#555555; text-align: center; margin-bottom:35px;">Glass Painting</h2>
+					<div class="laptop-container col-lg-6 col-md-6" style="text-align: center; margin-top: 15px;">
+						<img src="images/glassPainting1.jpg" style="width: 60%;box-shadow: 1px 7px 14px #ccc;">
+					</div>
+					<div class="laptop-container col-lg-6 col-md-6" style="text-align: center; margin-top: 15px;">
+						<img src="images/glassPainting2.jpg" style="width: 60%;box-shadow: 1px 7px 14px #ccc;">
+					</div>
+					<!-- <div class="laptop-container col-lg-2 col-md-2">
+						<img src="images/CampusDashboard3.png" style="width: 100%;box-shadow: 1px 7px 14px #ccc;">
+					</div> -->
+					<div class=" CCcontent col-md-12 col-sm-12">
+						<div class="col-md-12 col-lg-12">
+							<header>
+								<!-- <h3>Odio faucibus ipsum integer consequat</h3> -->
+							</header>
+							<p>
+								Developed a schedule building website for high schools. I build the website using javaScript, html, css, bootstrap. I also deployed the website on the production server. 
+							</p>
+						</div>
+					</div>
+				</div>
+				
+				<!-- <a href="#three" class="goto-next scrolly">Next</a> -->
+			</section>
+
+            <!-- Three -->
+            
+			<!-- Footer -->
+			<footer id="footer" class="col-md-12 col-lg-12 col-sm-12 col-xs-12">
+				<ul class="icons">
+					<li>
+						<a target="_blank" href="https://www.linkedin.com/in/titiksha-bhardwaj-55b438b1/" class="icon brands alt fa-linkedin-in"><span class="label">LinkedIn</span></a>
+					</li>
+					<li>
+						<a target="_blank" href="mailto:mailtitiksha@gmail.com" class="icon solid alt fa-envelope"><span class="label">Email</span></a>
+					</li>
+				</ul>
+			</footer>
+
+		</div>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.scrolly.min.js"></script>
+			<script src="assets/js/jquery.dropotron.min.js"></script>
+			<script src="assets/js/jquery.scrollex.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+
+	</body>
+</html>

@@ -1,0 +1,137 @@
+<!DOCTYPE HTML>
+
+<html>
+	<head>
+		<title>PSU App</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+        <noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+        <script>
+            $(window).on("load resize scroll", function() {
+                $(".PSUbannerSpotlight").each(function() {
+                    var windowTop = $(window).scrollTop();
+                    var elementTop = $(this).offset().top;
+                    var leftPosition = windowTop - elementTop;
+                    var rightPosition = elementTop - windowTop + 265;
+                    var newPosition = windowTop - elementTop + 265;
+                    var card4Position = windowTop - elementTop + 565;
+                    var cloud5Position = elementTop - windowTop + 565;
+                    // var fartherLeft = windowTop - elementTop;
+                    $(this)
+                        .find(".cloud")
+                        .css({ left: leftPosition });
+                    $(this)
+                        .find(".cloud2")
+                        .css({ right: rightPosition });
+                    
+                    $(this)
+                        .find(".cloud3")
+                        .css({ left: card4Position });
+                    $(this)
+                        .find(".cloud4")
+                        .css({ left: newPosition });
+                    $(this)
+                        .find(".cloud5")
+                        .css({ right: cloud5Position });
+                    // $(this)
+                    //     .find(".cloud3")
+                    //     .css({ right: newPosition });
+                });
+            });
+        </script>
+
+	</head>
+	<body class="is-preload">
+		<div id="page-wrapper">
+
+			<!-- Header -->
+				<header id="header" class="top-header">
+					<h1 id="logo"><a href="index.html">T</a></h1>
+					<nav id="nav">
+						<ul>
+							<li><a href="index.html">Home</a></li>
+							<li>
+								<a href="projects.html">Projects</a>
+							</li>
+							
+						</ul>
+					</nav>
+				</header>
+
+			<!-- Main -->
+                
+            <!-- One -->
+				<section id="one" class="PSUbannerSpotlight spotlight style1 bottom" style="box-shadow: none;position: relative;">
+                    <h1 class="pageHeadingApp">PSU App
+                        <svg class="elementor-headline elementor-headline-PSU" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 150" preserveAspectRatio="none">
+                            <path d="M7.7,145.6C109,125,299.9,116.2,401,121.3c42.1,2.2,87.6,11.8,87.3,25.7"></path>
+                        </svg>
+                    </h1>
+                    <img class="cloud5" src="images/cloud4.png" alt="" style="position: absolute;width: 9%;top: 35%;" />
+                    <img class="cloud4" src="images/cloud4.png" alt="" style="position: absolute;width: 15%;top: 48%;" />
+                    <img class="cloud3" src="images/cloud2.png" alt="" style="position: absolute;width: 5%;bottom: 8%;" />
+                    <img class="cloud2" src="images/cloud2.png" alt="" style="position: absolute;width: 4%;bottom: 18%;" />
+                    <img class="cloud" src="images/cloud1.png" alt="" style="position: absolute;width: 7.5%;top: 85%;" />
+                        
+                </section>
+            <!-- Two -->
+				<section id="two" class="spotlight spotlightImage style2 right col-md-12 col-sm-12 col-lg-12" style="background-color: #ffffff;box-shadow: rgb(152 123 58) 5px 0px 8px;padding-top:7em !important;padding-bottom: 7em !important;position: relative;">
+
+                    <span class="col-lg-5 col-md-5 col-sm-12 col-md-offset-1 col-lg-offset-1 no-padding">
+                        <span class="image imageBox col-md-4 col-sm-4">
+                            <img src="images/homeScreenApp.png" alt="" />
+                        </span>
+                        <span class="image imageBox col-md-4 col-sm-4" style="top: 10px;">
+                            <img src="images/SchedulePage.png" alt="" style="width: 89%; margin: 0 auto;"/>
+                        </span>
+                        <span class="image imageBox col-md-4 col-sm-4" style="top: 10px;">
+                            <img src="images/MasterSchedulePage.png" alt="" style="width: 89%; margin: 0 auto;"/>
+                        </span>
+                    </span>
+                    
+                    <span class="appContent col-md-5 col-sm-12 col-xs-12">
+                        <header>
+                            <h2>Odio faucibus ipsum integer consequat</h2>
+                        </header>
+                        <p>
+                            egjigeopihve 
+                            dfblvkemblken
+                            ebewllfbl nvlkdfeafbevbnelkf
+                            kwqjbvkfdbvjs fdv
+                            fvkjervbkasjb
+                        </p>
+                    </span>
+                    <!-- <a href="#three" class="goto-next scrolly">Next</a> -->
+                </section>
+            
+
+			<!-- Footer -->
+				<footer id="footer" class="col-md-12 col-lg-12 col-sm-12 col-xs-12">
+					<ul class="icons">
+                        <li>
+                            <a target="_blank" href="https://www.linkedin.com/in/titiksha-bhardwaj-55b438b1/" class="icon brands alt fa-linkedin-in"><span class="label">LinkedIn</span></a>
+                        </li>
+                        <li>
+                            <a target="_blank" href="mailto:mailtitiksha@gmail.com" class="icon solid alt fa-envelope"><span class="label">Email</span></a>
+                        </li>
+					</ul>
+				</footer>
+
+		</div>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.scrolly.min.js"></script>
+			<script src="assets/js/jquery.dropotron.min.js"></script>
+			<script src="assets/js/jquery.scrollex.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+
+	</body>
+</html>

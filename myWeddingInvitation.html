@@ -1,0 +1,213 @@
+<!DOCTYPE HTML>
+
+<html>
+	<head>
+		<title>My Wedding Invitation</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+        <noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+        <script>
+                $(window).on("load resize scroll", function() {
+                    $(".weddingBanner").each(function() {
+                        var windowTop = $(window).scrollTop();
+                        var elementTop = $(this).offset().top;
+                        var leftPosition1 = windowTop - elementTop+150;
+                        var leftPosition2 = windowTop - elementTop+175;
+                        var leftPosition3 = windowTop - elementTop+210;
+                        var leftPosition4 = windowTop - elementTop+232;
+                        var rightPosition1 = elementTop - windowTop + 120;
+                        var rightPosition2 = elementTop - windowTop + 90;
+                        var rightPosition3 = elementTop - windowTop + 70;
+                        var rightPosition4 = elementTop - windowTop + 50;
+
+                        
+                        var newPosition = windowTop - elementTop + 265;
+                        var card4Position = windowTop - elementTop + 565;
+                        var cloud5Position = elementTop - windowTop + 565;
+                        // var fartherLeft = windowTop - elementTop;
+                        $(this)
+                            .find(".flowerRight4")
+                            .css({ left: leftPosition1 });
+                        $(this)
+                            .find(".flowerRight3")
+                            .css({ left: leftPosition2 });
+                        $(this)
+                            .find(".flowerRight2")
+                            .css({ left: leftPosition3 });
+                        $(this)
+                            .find(".flowerRight1")
+                            .css({ left: leftPosition4 });
+                        $(this)
+                            .find(".flowerRight5")
+                            .css({ left: card4Position });
+                        $(this)
+                            .find(".flowerLeft4")
+                            .css({ left: rightPosition1 });
+                        $(this)
+                            .find(".flowerLeft3")
+                            .css({ left: rightPosition2 });
+                        $(this)
+                            .find(".flowerLeft2")
+                            .css({ left: rightPosition3 });
+                        $(this)
+                            .find(".flowerLeft1")
+                            .css({ left: rightPosition4 });
+                        $(this)
+                            .find(".flowerLeft5")
+                            .css({ right: cloud5Position });
+
+
+                    });
+                });
+            </script>
+    
+
+	</head>
+	<body class="is-preload">
+		<div id="page-wrapper">
+
+			<!-- Header -->
+				<header id="header" class="top-header">
+					<h1 id="logo"><a href="index.html">T</a></h1>
+					<nav id="nav">
+						<ul>
+							<li><a href="index.html">Home</a></li>
+							<li>
+								<a href="projects.html">Projects</a>
+							</li>
+						</ul>
+					</nav>
+				</header>
+
+			<!-- Main -->
+            
+            <!-- <div>
+                <video width="500" controls>
+                    <source src="images/TitikshaNikhilWeddingInvite.mp4" type="video/mp4">
+                </video>
+            </div> -->
+            <!-- One -->
+                <!-- <div class="parallax-heading-text">project heading</div> -->
+				<section id="one" class="weddingBanner bannerSpotlight spotlight style1 bottom" >
+
+                    <!-- <div class="image fit main">
+                        <img src="images/background_randomshapes.png" alt="" />
+                    </div> -->
+                    <h1 class="pageHeading">
+                        My Wedding Invitation
+                        <svg class="elementor-headline elementor-headline-personal" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 150" preserveAspectRatio="none">
+                            <path d="M7.7,145.6C109,125,299.9,116.2,401,121.3c42.1,2.2,87.6,11.8,87.3,25.7"></path>
+                        </svg>
+                        <!-- <img class="flowerLeft1" src="images/flower.png" alt="" style="position: absolute;width: 3%;top: 90%;left:5%;" />
+                        <img class="flowerLeft2" src="images/flower.png" alt="" style="position: absolute;width: 6%;top: 90%;left:15%;" />
+                        <img class="flowerLeft3" src="images/flower.png" alt="" style="position: absolute;width: 9%;top: 90%;left:30%;" />
+                        <img class="flowerLeft4" src="images/flower.png" alt="" style="position: absolute;width: 12%;top: 90%;left:40%;" />                        
+                        <img class="flowerRight1" src="images/flower.png" alt="" style="position: absolute;width: 3%;top: 90%;right:5%;" />
+                        <img class="flowerRight2" src="images/flower.png" alt="" style="position: absolute;width: 6%;top: 90%;right:15%;" />
+                        <img class="flowerRight3" src="images/flower.png" alt="" style="position: absolute;width: 9%;top: 90%;right:30%;" />
+                        <img class="flowerRight4" src="images/flower.png" alt="" style="position: absolute;width: 12%;top: 90%;right:40%;" />
+                        <img class="flowerRight5" src="images/flower.png" alt="" style="position: absolute;width: 12%;top: 90%;right:40%;" /> -->
+                    </h1>
+                
+                </section>
+            <!-- Two -->
+				<section id="two" class="spotlight spotlightVideo style2 right"> 
+                    <span class="image videoBox ">
+                        <video controls poster="images/WeddingInvitationImage.png" id="moving-bg col-md-12 col-sm-12 col-xs-12">
+                            <!-- <source src="images/parallax-banner-bg.mp4" type="video/mp4"> -->
+                            <source src="images/TitikshaNikhilWeddingInvite.mp4" type="video/mp4">
+                        </video>
+                        <!-- <img src="images/pic03.jpg" alt="" /> -->
+                    </span>
+                    <div class="content CCcontent contentContainer col-sm-12 col-xs-12">
+                        <div>
+                            <header>
+                                <h2>My Wedding Invitation video</h2>
+                            </header>
+                            <br>
+                            <p>For my wedding, I decided to create the wedding invitation on my own. I first developed the card using Adobe Illustrator, and chose blush pink colour for the background as it symbolises love, I then added pink flower to for happiness and to add some fragrance. 
+                                For the itinerary page, I kept the top blue for a calming sky effect, keeping the pink theme at the bottom. 
+
+                                The ring at the center of the itinerary page, symbolises a promise of Faith, Hope and, Love. When zoomed in, it can be seen that each ring is made with one of these virtues. 
+                            </p>
+                            <br>
+                            <p>
+                                I used Adobe After Effects to add animation and music to it. I added a flower petals 
+                            </p>
+                            <br>
+                            <p>
+                                To export it as a mp4 file, I made use of Adobe Media Encoder. 
+                            </p>
+                        </div>
+                       
+                    </div>
+                    <!-- <a href="#three" class="goto-next scrolly">Next</a> -->
+                </section>
+            <!-- Three -->
+				<section id="three" class="section3 style3 left" style="position: relative; width: 100%; height: auto; background:none; background-color: #f3f2f0;color: #333;">
+
+                    <div class="container" style="padding: 5% 0;color: #333;">
+                        <div class="row">
+                            <div class="col-md-12 col-lg-12 col-sm-12 col-12-medium text-center">
+                                <header>
+                                    <h2>Elements</h2>
+                                    <br>
+                                </header> 
+                            </div>
+                        </div>
+                        <div class="cardsContainer col-md-12 col-lg-12 col-sm-12">
+                            <div class="cardWidget col-md-5 col-sm-5 col-lg-5 col-md-offset-1 col-sm-offset-1 no-padding">
+                                <img class="col-md-12 col-lg-12" src="images/NikshaRing.svg">
+                                <div class="text col-md-12 col-lg-12">As I was growing up, I always beleived in 3 virtues, which are: Faith, Hope, and Love. And, so I wanted them to be a part of my wedding card. I made a ring of each of these virtues and combined them, to represent a promise. I then, combined our names for the hastag and got "#Niksha". "Nik" from Nikhil, and "ksha" from Titiksha. The word Niksha means kiss in Sanskrit</div>
+                            </div>
+                            <div class="cardWidget col-md-5 col-sm-5 col-lg-5 col-md-offset-1 col-sm-offset-1 no-padding">
+                                <img class="col-md-12 col-lg-12" src="images/TN_logo.svg">
+                                <div class="text col-md-12 col-lg-12">Created and designed a logo that combines, N(Nikhil) and T(Titiksha) with a heart, using Adobe Illustrator. I then got it cut out on a golden sheet, which was used as the stage background.</div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- <div class="content">
+						<header>
+							<h2>Interdum felis blandit praesent sed augue</h2>
+							<p>Accumsan integer ultricies aliquam vel massa sapien phasellus</p>
+						</header>
+						<p>Feugiat accumsan lorem eu ac lorem amet ac arcu phasellus tortor enim mi mi nisi praesent adipiscing. Integer mi sed nascetur cep aliquet augue varius tempus lobortis porttitor lorem et accumsan consequat adipiscing lorem.</p>
+						<ul class="actions">
+							<li><a href="#" class="button">Learn More</a></li>
+						</ul>
+                    </div> -->
+                    
+					<a href="#four" class="goto-next scrolly">Next</a>
+				</section>
+    
+
+			<!-- Footer -->
+				<footer id="footer" class="col-md-12 col-lg-12 col-sm-12 col-xs-12">
+					<ul class="icons">
+                        <li>
+                            <a target="_blank" href="https://www.linkedin.com/in/titiksha-bhardwaj-55b438b1/" class="icon brands alt fa-linkedin-in"><span class="label">LinkedIn</span></a>
+                        </li>
+                        <li>
+                            <a target="_blank" href="mailto:mailtitiksha@gmail.com" class="icon solid alt fa-envelope"><span class="label">Email</span></a>
+                        </li>
+					</ul>
+				</footer>
+
+		</div>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.scrolly.min.js"></script>
+			<script src="assets/js/jquery.dropotron.min.js"></script>
+			<script src="assets/js/jquery.scrollex.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+
+	</body>
+</html>
