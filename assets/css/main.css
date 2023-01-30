@@ -4726,6 +4726,9 @@ input, select, textarea {
 				width: calc(33% - 2.5em);
 				margin: 2.5em 0 0 2.5em;
 			}
+		.tiles article > a{
+			font-size: 25px !important;
+		}
 
 	}
 	/* .style1 .box-image:hover{
@@ -4749,6 +4752,10 @@ input, select, textarea {
 					-ms-transform: scale(1.0);
 					transform: scale(1.0);
 				}
+		.tiles article > a{
+			font-size: 25px !important;
+		}
+
 
 	}
 
@@ -4762,6 +4769,10 @@ input, select, textarea {
 				width: 100%;
 				margin: 1.25em 0 0 0;
 			}
+		.tiles article > a{
+			font-size: 25px !important;
+		}
+
 
 	}
 	.CCpageHeading{
