@@ -2188,7 +2188,7 @@ input, select, textarea {
 		display: -webkit-flex;
 		display: -ms-flexbox;
 		display: flex;
-		height: calc(40vh - 35px) !important;
+		height: calc(30vh) !important;
 		/* min-height: 25vh; */
 		padding-right: 10%;
 		padding-left: 10%;
