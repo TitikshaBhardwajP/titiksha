@@ -1,0 +1,192 @@
+<!DOCTYPE HTML>
+
+<html>
+	<head>
+		<title>PSU App</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+        <noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+        <script>
+            $(window).on("load resize scroll", function() {
+                $(".PSUbannerSpotlight").each(function() {
+                    var windowTop = $(window).scrollTop();
+                    var elementTop = $(this).offset().top;
+                    var leftPosition = windowTop - elementTop;
+                    var rightPosition = elementTop - windowTop + 265;
+                    var newPosition = windowTop - elementTop + 265;
+                    var card4Position = windowTop - elementTop + 565;
+                    var cloud5Position = elementTop - windowTop + 565;
+                    // var fartherLeft = windowTop - elementTop;
+                    $(this)
+                        .find(".cloud")
+                        .css({ left: leftPosition });
+                    $(this)
+                        .find(".cloud2")
+                        .css({ right: rightPosition });
+                    
+                    $(this)
+                        .find(".cloud3")
+                        .css({ left: card4Position });
+                    $(this)
+                        .find(".cloud4")
+                        .css({ left: newPosition });
+                    $(this)
+                        .find(".cloud5")
+                        .css({ right: cloud5Position });
+                });
+            });
+        </script>
+
+	</head>
+	<body class="is-preload">
+		<div id="page-wrapper">
+
+			<!-- Header -->
+				<header id="header" class="top-header">
+					<h1 id="logo"><a href="index.html">T</a></h1>
+					<nav id="nav">
+						<ul>
+							<li><a href="index.html">Home</a></li>
+							<li>
+								<a href="projects.html">Projects</a>
+							</li>
+							
+						</ul>
+					</nav>
+				</header>
+
+			<!-- Main -->
+                
+                <a href="CC.html" title="next project">
+                    <img src="images/RightArrow.svg" style="width: 25px;position: fixed;right: 20px;top: 50%;transform: translate(0, 50%);z-index: 5;">
+                </a>
+                
+            <!-- One -->
+				<section id="one" class="PSUbannerSpotlight spotlight style1 bottom" style="box-shadow: none;position: relative;">
+                    <h1 class="pageHeadingApp">PSU App
+                        <svg class="elementor-headline elementor-headline-PSU" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 150" preserveAspectRatio="none">
+                            <path d="M7.7,145.6C109,125,299.9,116.2,401,121.3c42.1,2.2,87.6,11.8,87.3,25.7"></path>
+                        </svg>
+                    </h1>
+                    <img class="cloud5" src="images/cloud4.png" alt="" style="position: absolute;width: 9%;top: 35%;" />
+                    <img class="cloud4" src="images/cloud4.png" alt="" style="position: absolute;width: 15%;top: 48%;" />
+                    <img class="cloud3" src="images/cloud2.png" alt="" style="position: absolute;width: 5%;bottom: 8%;" />
+                    <img class="cloud2" src="images/cloud2.png" alt="" style="position: absolute;width: 4%;bottom: 18%;" />
+                    <img class="cloud" src="images/cloud1.png" alt="" style="position: absolute;width: 7.5%;top: 85%;" />
+                        
+                </section>
+            <!-- Two -->
+				<section id="two" class="spotlight spotlightImage style2 right col-md-12 col-sm-12 col-lg-12" style="background-color: #ffffff;padding-top:5em !important;padding-bottom: 5em !important;position: relative;">
+                    <!-- <div class="col-md-10 col-lg-10 col-sm-12 col-md-offset-1 col-lg-offset-1"> -->
+                        <div class="laptop-container col-md-2 col-md-offset-2 no-padding">
+                            <video controls autoplay muted loop class="appVideo">
+                                <source src="images/newAudioRecording.mp4" type="video/mp4">
+                            </video>
+                        </div>
+                        <div class=" CCcontent col-lg-6 col-md-6 col-sm-12 col-xs-12" style="text-align: left;">
+                            <div class="col-md-12 col-lg-12">
+                                <header>
+                                    <h2>End-to-End Creation of the PowerSchool University App</h2>
+                                </header>
+                                <p>
+                                    As a pivotal part of the PowerSchool University events, I spearheaded the comprehensive design and development of the PSU app from its inception. This project catered to the company's need for an in-house application that offered attendees a centralized platform for accessing event-related information effortlessly.
+                                </p>
+                                <p>
+                                    My role designing and developing a seamless user experience by allowing customers to access vital event details such as schedules, training sessions, venue information, and social activities, providing a comprehensive overview of the event's offerings.
+                                </p>
+                                <p>
+                                    To materialize this vision, I utilized Adobe XD to craft wireframes and mock-ups, ensuring a user-centric design before diving into the development phase.
+                                </p>
+                                <p>
+                                    Subsequently for development, I brought the app to life using React Native, harnessing its robust capabilities to create a cross-platform solution that guarantees a consistent user experience across devices.
+                                </p>
+                                <p>
+                                    After the development phase, I oversaw the deployment of the app, ensuring a smooth and successful launch onto the App Store. As a result, the app is currently live and available for download, providing seamless access to event-related information for PowerSchool University attendees.
+                                </p>
+                            </div>
+                        </div>
+                    <!-- </div> -->
+                    
+                </section>
+
+            <!-- Three -->
+                <section id="two" class="spotlight spotlightImage style2 right col-md-12 col-sm-12 col-lg-12" style="background-color: #ffffff;padding-bottom: 5em !important;position: relative;">
+                    <!-- <div class="col-md-10 col-lg-10 col-sm-12 col-md-offset-1 col-lg-offset-1"> -->
+                        <div class="col-lg-2 col-md-2 col-sm-12 col-md-offset-2" style="text-align: center; margin-top: 15px;">
+                            <img src="images/HomeScreen_PSU.png" style="width: 100%;">
+                        </div>
+                        <div class="col-lg-2 col-md-2 col-sm-12 col-md-offset-1" style="text-align: center; margin-top: 8px;padding: 3px;">
+                            <img src="images/ScheduleScreen.png" style="width: 100%;">
+                        </div>
+                        <div class="col-lg-2 col-md-2 col-sm-12 col-md-offset-1" style="text-align: center; margin-top: 8px;padding: 3px;">
+                            <img src="images/MasterScheduleScreen.png" style="width: 100%;">
+                        </div>
+                        
+                    <!-- </div> -->
+                        <!-- <div class=" CCcontent col-lg-5 col-md-5 col-sm-12 col-xs-12">
+                            <div class="col-md-12 col-lg-12">
+                             
+                                <p>
+                                    I collected several customer and trainer feedback, and decided to re-design the website to enhance the user experience. 
+                                    I reconstructed the information architecture, upgraded the site navigation for easy resource access, introduced an intuitive search function, and added 3 new screens to simplify the user experience. Further, I designed an entirely new module to allow the users to personalize the configurations of their devices. 
+                                </p>
+                            </div>
+                        </div> -->
+                    
+                    <!-- <a href="#three" class="goto-next scrolly">Next</a> -->
+                </section>
+
+
+                <!-- <section id="two" class="spotlight spotlightImage style2 right col-md-12 col-sm-12 col-lg-12" style="background-color: #ffffff;padding-top:5em !important;padding-bottom: 5em !important;position: relative;">
+                    <div class="col-md-10 col-lg-10 col-sm-12 col-md-offset-1 col-lg-offset-1">
+                        <div class="col-lg-6 col-md-6 col-sm-12">
+                            <img src="images/oldDesign.png" style="width: 90%;box-shadow: 1px 7px 14px #ccc;">
+                            <span class="col-md-12" style="color: #333333; text-align: center; margin-top: 10px;"><b style="color: #333333;">From this, in 2019 (before designing)</b></span>
+                        </div>
+                        <span class="" style="color: #333333;position:absolute; font-weight: bold;">To
+                        </span>
+                        <div class="col-lg-6 col-md-6 col-sm-12" style="text-align: right;">
+                            <img src="images/newCC.png" style="width: 90%;">
+                            <span class="col-md-12" style="color: #333333; text-align: center; margin-top: 10px;"><b  style="color: #333333;">To this, in 2022 (after designing)</b></span>
+                        </div>
+                    </div>
+                    <div class=" CCcontent col-lg-12 col-md-12 col-sm-12">
+                        <div class="col-md-12 col-lg-12">
+                            
+                            <p>
+                                I reconstructed the information architecture, upgraded the site navigation for easy resource access, introduced an intuitive search function, and added 3 new screens to simplify the user experience. Further, I designed an entirely new module to allow the users to personalize the configurations of their devices. 
+                            </p>
+                        </div>
+                    </div>
+                    
+                </section> -->
+			<!-- Footer -->
+				<footer id="footer" class="col-md-12 col-lg-12 col-sm-12 col-xs-12">
+					<ul class="icons">
+                        <li>
+                            <a target="_blank" href="https://www.linkedin.com/in/titiksha-bhardwaj-55b438b1/" class="icon brands alt fa-linkedin-in"><span class="label">LinkedIn</span></a>
+                        </li>
+                        <li>
+                            <a target="_blank" href="mailto:mailtitiksha@gmail.com" class="icon solid alt fa-envelope"><span class="label">Email</span></a>
+                        </li>
+					</ul>
+				</footer>
+
+		</div>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.scrolly.min.js"></script>
+			<script src="assets/js/jquery.dropotron.min.js"></script>
+			<script src="assets/js/jquery.scrollex.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+
+	</body>
+</html>
