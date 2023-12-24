@@ -5161,7 +5161,7 @@ input, select, textarea {
     fill: none;
     opacity: 0;
     stroke-dasharray: 0;
-    transition: .3s;
+    transition: .1s;
 	}
 	.elementor-headline-CC{
 		stroke:#00427c;
