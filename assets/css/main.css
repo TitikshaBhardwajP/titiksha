@@ -3097,10 +3097,10 @@ input, select, textarea {
 		/* height: 641px; */
 		padding: 15px;
 		margin: 0 auto;
-		-moz-transition: -moz-transform 1s ease, opacity 1s ease;
-		-webkit-transition: -webkit-transform 1s ease, opacity 1s ease;
-		-ms-transition: -ms-transform 1s ease, opacity 1s ease;
-		transition: transform 1s ease, opacity 1s ease;
+		-moz-transition: -moz-transform 0.15s ease, opacity 0.15s ease;
+		-webkit-transition: -webkit-transform 0.15s ease, opacity 0.15s ease;
+		-ms-transition: -ms-transform 0.15s ease, opacity 0.15s ease;
+		transition: transform 0.15s ease, opacity 0.15s ease;
 		box-shadow: rgb(191 182 173) 0px 1px 8px 2px;
     /* width: 400px;
     height: 630px; */
