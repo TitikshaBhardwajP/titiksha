@@ -4943,7 +4943,7 @@ input, select, textarea {
 	/* } */
 	.contentContainer{
 		background-color: #ffffff !important;
-		color: #555555;
+		color: #1c1c1c;
 	}
 	/* .contentContainer header{ */
 		/* color: #474545; */
@@ -4993,10 +4993,11 @@ input, select, textarea {
 	}
 	.cardWidget .text{
 		width: 100%;
-    color: #333333;
-    padding: 15px;
-    background-color: #ffffff;
-    /* position: absolute; */
+		color: #1c1c1c;
+		font-size: 15px;
+		padding: 15px;
+		background-color: #ffffff;
+		/* position: absolute; */
 		bottom: 0px;
 		-moz-align-items: center;
 		-webkit-align-items: center;
@@ -5064,10 +5065,10 @@ input, select, textarea {
 		text-align: center;
 	}
 	.appContent header{
-		color: #555555;
+		color: #1c1c1c;
 	}
 	.appContent p {
-		color: #555555;
+		color: #1c1c1c;
 	}
 	.laptop-container {
 		/* max-width: 500px; */
@@ -5114,16 +5115,17 @@ input, select, textarea {
     height: 100%;
 	}
 	.CCcontent{
-		color: #555555;
+		color: #1c1c1c;
 		text-align: center;
 		margin: 35px 0px;
 		float:right;
 	}
 	.CCcontent div header{
-		color: #555555;
+		color: #1c1c1c;
 	}
 	.CCcontent div p{
-		color: #555555;
+		color: #1c1c1c;
+		font-size: 15px;
 	}
 	.h1, h1 {
 		font-size: 36px;
